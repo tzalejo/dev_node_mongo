@@ -1,0 +1,30 @@
+{
+    "name": "Node.js y MongoDb",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "api",
+    "workspaceFolder": "/api",
+    "shutdownAction": "stopCompose",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "editor.fontSize": 18,
+        "editor.formatOnSave": true,  
+        "workbench.colorTheme": "Default Dark+",
+        "workbench.iconTheme": "material-icon-theme"
+    },
+    "extensions": [
+        "Angular.ng-template",
+        "bmewburn.vscode-intelephense-client",
+        "cyrilletuzi.angular-schematics",
+        "johnpapa.Angular2",
+        "Mikael.Angular-BeastCode",
+        "mikestead.dotenv",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "onecentlin.laravel-blade",
+        "PKief.material-icon-theme",
+        "redhat.vscode-yaml",
+        "sibiraj-s.vscode-scss-formatter",
+        "xabikos.JavaScriptSnippets"
+    ]
+}
